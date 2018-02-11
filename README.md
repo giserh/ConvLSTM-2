@@ -1,4 +1,8 @@
-read_radar 文件用于读取雷达数据并保存
-rough 文件同样用于读取雷达数据，不同的是可以将250*250的雷达输出网格加粗到50*50
-radar_forecast 文件用于搭建网络模型并训练
-predict_and_draw 文件用户预测并画图
+# Conv-LSTM
+based on this paper: [Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting](https://arxiv.org/abs/1506.04214)
+
+read_radar: read radar data and save it to numpy format.
+
+radar_forecast build the ConvLSTM network and train.
+
+predict_and_draw draw the nowcasting results.
